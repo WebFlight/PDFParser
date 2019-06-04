@@ -15,7 +15,7 @@ import pdfparser.impl.PdfParser;
 import com.mendix.systemwideinterfaces.core.IMendixObject;
 
 /**
- * Returns the number of pages of a PDF file as an integer.
+ * Returns the number of pages of a PDF document as an integer.
  */
 public class GetPageCount extends CustomJavaAction<java.lang.Long>
 {

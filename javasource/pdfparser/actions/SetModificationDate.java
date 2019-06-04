@@ -15,7 +15,7 @@ import pdfparser.impl.PdfParser;
 import com.mendix.systemwideinterfaces.core.IMendixObject;
 
 /**
- * Sets the author of the PDF document. Return true if successfull.
+ * Sets the modification date of the PDF document. Returns true if successfull.
  */
 public class SetModificationDate extends CustomJavaAction<java.lang.Boolean>
 {
@@ -41,12 +41,10 @@ public class SetModificationDate extends CustomJavaAction<java.lang.Boolean>
 		if (inputFile != null && inputFile.getHasContents(context)) {
 			PdfParser pdfParser = new PdfParser(); 									// Instantiates the PDF parser class
 			pdfParser.setModificationDate(inputFile, context, modificationDate);
+			return true;	
 		}
-
-		else {
 			throw new NullPointerException("Empty input file in PDF Parser.");
-		}
-		return true;	
+			
 		// END USER CODE
 	}
 

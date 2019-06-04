@@ -41,12 +41,10 @@ public class SetSubject extends CustomJavaAction<java.lang.Boolean>
 		if (inputFile != null && inputFile.getHasContents(context)) {
 			PdfParser pdfParser = new PdfParser(); 									// Instantiates the PDF parser class
 			pdfParser.setSubject(inputFile, context, subject);
+			return true;	
 		}
-
-		else {
-			throw new NullPointerException("Empty input file in PDF Parser.");
-		}
-		return true;	
+		throw new NullPointerException("Empty input file in PDF Parser.");
+		
 		// END USER CODE
 	}
 

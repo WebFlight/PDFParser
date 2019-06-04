@@ -15,7 +15,7 @@ import pdfparser.impl.PdfParser;
 import com.mendix.systemwideinterfaces.core.IMendixObject;
 
 /**
- * Returns the PDF title as a string.
+ * Returns the title of the PDF document as a string.
  */
 public class GetTitle extends CustomJavaAction<java.lang.String>
 {

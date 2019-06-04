@@ -41,12 +41,10 @@ public class SetKeywords extends CustomJavaAction<java.lang.Boolean>
 		if (inputFile != null && inputFile.getHasContents(context)) {
 			PdfParser pdfParser = new PdfParser(); 									// Instantiates the PDF parser class
 			pdfParser.setKeywords(inputFile, context, keywords);
+			return true;	
 		}
 
-		else {
 			throw new NullPointerException("Empty input file in PDF Parser.");
-		}
-		return true;	
 		// END USER CODE
 	}
 

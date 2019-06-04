@@ -15,7 +15,7 @@ import pdfparser.impl.PdfParser;
 import com.mendix.systemwideinterfaces.core.IMendixObject;
 
 /**
- * Returns the PDF creation date as a DateTime.
+ * Returns the creation date of a PDF as a DateTime.
  */
 public class GetCreationDate extends CustomJavaAction<java.util.Date>
 {

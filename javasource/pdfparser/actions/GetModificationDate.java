@@ -15,7 +15,7 @@ import pdfparser.impl.PdfParser;
 import com.mendix.systemwideinterfaces.core.IMendixObject;
 
 /**
- * Returns the PDF modification date as a DateTime.
+ * Returns the modification date of a PDF as a DateTime.
  */
 public class GetModificationDate extends CustomJavaAction<java.util.Date>
 {
