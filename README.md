@@ -1,5 +1,5 @@
 # PDF Parser
-Welcome to the PDF Parser module. This module provicdes a series of java actions to read the contents and read and change the metadata of your PDF file. 
+Welcome to the PDF Parser module. This module provides a series of java actions to read the contents and read and change the metadata of your PDF file. 
 
 ![PDF Parser][1]
 
