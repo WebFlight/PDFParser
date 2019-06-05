@@ -33,4 +33,4 @@ This module implements the PDF Box and Commons loggings libraries. The following
 - org.apache.pdfbox/fontbox/2.0.14
 - commons-logging/commons-logging/1.2
 
-[1]: docs/pdf_parser.png
+[1]: https://github.com/WebFlight/PdfParser/raw/master/docs/pdf_parser.png
