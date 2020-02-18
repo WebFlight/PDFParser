@@ -1,5 +1,5 @@
 # PDF Parser
-Welcome to the PDF Parser module. This module provicdes a series of java actions to read the contents and read and change the metadata of your PDF file. 
+Welcome to the PDF Parser module. This module provides a series of java actions to read the contents and read and change the metadata of your PDF file. 
 
 ![PDF Parser][1]
 
@@ -33,4 +33,4 @@ This module implements the PDF Box and Commons loggings libraries. The following
 - org.apache.pdfbox/fontbox/2.0.14
 - commons-logging/commons-logging/1.2
 
-[1]: docs/pdf_parser.png
+[1]: https://github.com/WebFlight/PdfParser/raw/master/docs/pdf_parser.png
