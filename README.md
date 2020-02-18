@@ -29,8 +29,8 @@ The following setters are also included:
 
 This module implements the PDF Box and Commons loggings libraries. The following libraries are included in the module: 
 
-- org.apache.pdfbox/pdfbox/2.0.14
-- org.apache.pdfbox/fontbox/2.0.14
+- org.apache.pdfbox/pdfbox/2.0.18
+- org.apache.pdfbox/fontbox/2.0.18
 - commons-logging/commons-logging/1.2
 
 [1]: https://github.com/WebFlight/PdfParser/raw/master/docs/pdf_parser.png
